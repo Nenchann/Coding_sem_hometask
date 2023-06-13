@@ -1,5 +1,8 @@
 ﻿Console.Clear();
 
+Console.Write("Введите три числа в одну строку через пробел или запятую <- ");
+
+
 string[] i = Console.ReadLine().Split(' ', ',', '.', ':');
 int a = Convert.ToInt32(i[0]);
 int b = Convert.ToInt32(i[1]);
